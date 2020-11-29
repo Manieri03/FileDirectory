@@ -8,7 +8,7 @@ namespace FileAndDirectoryLibrary
 {
     public class Directory : FileAstratto
     {
-        List<File> Files = new List<File>();
+        List<File> Files = new List<File>(); 
         public Directory(string nome, Directory directory) : base(nome, directory) { }
 
         public List<File> GetFiles()
